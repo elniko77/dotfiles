@@ -10,3 +10,5 @@ if [ ! -d "$HOME/.oh-my-zsh" ]; then
 else
 	echo ".oh-my-zsh already found, skipping."
 fi
+
+sudo chsh -s $(which zsh) $(whoami)

@@ -25,6 +25,9 @@ fi
 
 alias config="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 
+### Aliases
+alias k="kubectl"
+
 
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init bash)"

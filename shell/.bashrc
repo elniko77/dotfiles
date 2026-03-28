@@ -115,10 +115,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export HTTP_PROXY="http://127.0.0.1:8080/"
-export HTTPS_PROXY="http://127.0.0.1:8080/"
-export http_proxy="http://127.0.0.1:8080/"
-export https_proxy="http://127.0.0.1:8080/"
+#export HTTP_PROXY="http://127.0.0.1:8080/"
+#export HTTPS_PROXY="http://127.0.0.1:8080/"
+#export http_proxy="http://127.0.0.1:8080/"
+#export https_proxy="http://127.0.0.1:8080/"
 
 eval "$(starship init bash)"
-. /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
+#. /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
